@@ -1,6 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import '../../api/fake_web_socket.dart';
+import '../api/fake_web_socket.dart';
+
+
 
 final websocketClientProvider = Provider<WebsocketClient>(
   (ref) {

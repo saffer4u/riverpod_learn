@@ -24,6 +24,7 @@ class MyHomePage extends StatelessWidget {
                   context, MaterialPageRoute(builder: (_) => const Counter())),
               child: const Text("Go to Counter"),
             ),
+            const SizedBox(height: 20,),
             ElevatedButton(
               onPressed: () => Navigator.push(
                   context, MaterialPageRoute(builder: (_) => const WebSocketCounter())),
